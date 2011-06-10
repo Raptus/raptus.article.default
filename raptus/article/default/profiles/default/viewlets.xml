@@ -2,6 +2,7 @@
 <object>
 
  <order manager="plone.belowcontentbody" skinname="*">
+  <viewlet name="raptus.article.allcontent" insert-before="*" />
   <viewlet name="raptus.article.listing.right" insert-before="*" />
   <viewlet name="raptus.article.listing.left" insert-before="*" />
   <viewlet name="raptus.article.listing.columns" insert-before="*" />

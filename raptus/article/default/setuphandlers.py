@@ -22,6 +22,7 @@ DEPENDENCIES = (
     'raptus.article.discussion',
     'raptus.article.mapsjunaio',
     'raptus.article.backlink',
+    'raptus.article.allcontent',
     'raptus.backlink',
 )
 
