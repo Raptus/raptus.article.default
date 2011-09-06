@@ -50,18 +50,18 @@ installed. Just add the raptus.article.default on a separate line, like this::
 
     eggs =
         Plone
-        raptus.article.core
+        raptus.article.default
 
 Next step is to add the zcml files to the "zcml" section of
 buildout.cfg. Look for the section that looks like this::
 
-    eggs =
+    zcml =
         Plone
 
 This section might have additional lines if you have other zmcl's already
 installed. Just add the raptus.article.default* on separate lines, like this::
 
-    eggs =
+    zcml =
         Plone
         raptus.article.default
         raptus.article.default-overrides
@@ -142,6 +142,11 @@ by raptus.article.default and they will be installed if present.
 - `raptus.article.table <http://pypi.python.org/pypi/raptus.article.table>`_
 - `raptus.article.upload <http://pypi.python.org/pypi/raptus.article.upload>`_
 - `raptus.article.contentswitcher <http://pypi.python.org/pypi/raptus.article.contentswitcher>`_
+- `raptus.article.discussion <http://pypi.python.org/pypi/raptus.article.discussion>`_
+- `raptus.article.mapsjunaio <http://pypi.python.org/pypi/raptus.article.mapsjunaio>`_
+- `raptus.article.backlink <http://pypi.python.org/pypi/raptus.article.backlink>`_
+- `raptus.article.allcontent <http://pypi.python.org/pypi/raptus.article.allcontent>`_
+- `raptus.article.slider <http://pypi.python.org/pypi/raptus.article.slider>`_
 
 Extend your article
 -------------------

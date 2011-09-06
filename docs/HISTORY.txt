@@ -1,16 +1,22 @@
 Changelog
 =========
 
+2.0b10 (2011-09-06)
+-------------------
+
+* Added optional dependency for raptus.article.slider
+* Corrected README
+
 2.0b9 (2011-06-10)
 ------------------
 
-* optional dependency for raptus.article.allcontent
+* Added optional dependency for raptus.article.allcontent
 
 2.0b8 (2011-06-03)
 ------------------
 
-* Added raptus.article.backlink optional dependency
-* optional dependency for raptus.article.mapsjunaio
+* Added optional dependency for raptus.article.backlink
+* Added optional dependency for raptus.article.mapsjunaio
 
 2.0b7 (2010-12-14)
 ------------------
@@ -20,12 +26,12 @@ Changelog
 2.0b6 (2010-11-22)
 ------------------
 
-* Added raptus.article.discussion optional dependency
+* Added optional dependency for raptus.article.discussion
 
 2.0b5 (2010-11-10)
 ------------------
 
-* Added raptus.article.contentswitcher optional dependency
+* Added optional dependency for raptus.article.contentswitcher
 
 2.0b4 (2010-10-24)
 ------------------

@@ -24,6 +24,7 @@
  </order>
 
  <order manager="plone.abovecontentbody" skinname="*">
+  <viewlet name="raptus.article.slider" insert-before="*" />
   <viewlet name="raptus.article.table.right" insert-before="*" />
   <viewlet name="raptus.article.randomimage.right" insert-before="*" />
   <viewlet name="raptus.article.teaser.right" insert-before="*" />
@@ -55,6 +56,7 @@
  </order>
 
  <order manager="plone.portaltop" skinname="*">
+  <viewlet name="raptus.article.slider.teaser" insert-after="*" />
   <viewlet name="raptus.article.lightbox.teaser" insert-after="*" />
   <viewlet name="raptus.article.contentfader.teaser" insert-after="*" />
   <viewlet name="raptus.article.contentswitcher.teaser" insert-after="*" />
