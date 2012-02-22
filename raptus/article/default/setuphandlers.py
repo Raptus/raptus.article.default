@@ -24,6 +24,8 @@ DEPENDENCIES = (
     'raptus.article.backlink',
     'raptus.article.allcontent',
     'raptus.article.slider',
+    'raptus.article.collections',
+    'raptus.article.alias',
     'raptus.backlink',
 )
 

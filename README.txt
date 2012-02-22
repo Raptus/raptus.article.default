@@ -147,6 +147,7 @@ by raptus.article.default and they will be installed if present.
 - `raptus.article.backlink <http://pypi.python.org/pypi/raptus.article.backlink>`_
 - `raptus.article.allcontent <http://pypi.python.org/pypi/raptus.article.allcontent>`_
 - `raptus.article.slider <http://pypi.python.org/pypi/raptus.article.slider>`_
+- `raptus.article.collections <http://pypi.python.org/pypi/raptus.article.collections>`_
 
 Extend your article
 -------------------
