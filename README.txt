@@ -4,8 +4,8 @@ Introduction
 The new and easy way to create a site with the necessary features in a good style.
 With this add-on you install default configuration of the raptus.article package.
 All you need for a smart page in one step. But that's not all. If you need more
-just have a look at the list of extensions and add the desired ones to your buildout.cfg. 
-The rest is handled by the raptus.article.default package. 
+just have a look at the list of extensions and add the desired ones to your buildout.cfg.
+The rest is handled by the raptus.article.default package.
 
 For developers
 --------------
@@ -65,9 +65,9 @@ installed. Just add the raptus.article.default* on separate lines, like this::
         Plone
         raptus.article.default
         raptus.article.default-overrides
-  
+
 Note that there are two zcml files you have to register. This because
-any of these register to different times, which is necassary for the product. 
+any of these register to different times, which is necassary for the product.
 
 Once you have added these lines to your configuration file it is time to run
 buildout so the system can add and set up raptus.article.default for you. Go to the
@@ -82,7 +82,7 @@ in your Zope instance.
 Next, start up Zope, e.g with::
 
     $ bin/instance fg
-    
+
 Next go to the "Add-ons" control panel in Plone as an administrator and
 install the "raptus.article.default" product. You should then be able to add
 a new content type called Article.
@@ -148,10 +148,11 @@ by raptus.article.default and they will be installed if present.
 - `raptus.article.allcontent <http://pypi.python.org/pypi/raptus.article.allcontent>`_
 - `raptus.article.slider <http://pypi.python.org/pypi/raptus.article.slider>`_
 - `raptus.article.collections <http://pypi.python.org/pypi/raptus.article.collections>`_
+- `raptus.article.supersized <http://pypi.python.org/pypi/raptus.article.supersized>`_
 
 Extend your article
 -------------------
-The raptus.article is so easy to extend. Just add the desired raptus.article packages to the "eggs" list 
+The raptus.article is so easy to extend. Just add the desired raptus.article packages to the "eggs" list
 in your buildout.cfg. The whole rest is handled by raptus.article.default.
 
 Note that it's not necessary to add the zcml files for raptus.article extensions in your buildout.cfg
@@ -160,5 +161,5 @@ if you are using raptus.article.default.
 Copyright and credits
 =====================
 
-raptus.article is copyrighted by `Raptus AG <http://raptus.com>`_ and licensed under the GPL. 
+raptus.article is copyrighted by `Raptus AG <http://raptus.com>`_ and licensed under the GPL.
 See LICENSE.txt for details.

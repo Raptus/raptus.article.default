@@ -53,6 +53,7 @@
   <viewlet name="raptus.article.media.audio" insert-before="*" />
   <viewlet name="raptus.article.media.video" insert-before="*" />
   <viewlet name="raptus.article.wysiwyg.full" insert-before="*" />
+  <viewlet name="raptus.article.supersized" insert-before="*" />
  </order>
 
  <order manager="plone.portaltop" skinname="*">
@@ -65,6 +66,7 @@
   <viewlet name="raptus.article.flash.teaser" insert-after="*" />
   <viewlet name="raptus.article.randomimage.teaser" insert-after="*" />
   <viewlet name="raptus.article.randomcontent.teaser" insert-after="*" />
+  <viewlet name="raptus.article.supersized.teaser" insert-after="*" />
  </order>
 
 </object>

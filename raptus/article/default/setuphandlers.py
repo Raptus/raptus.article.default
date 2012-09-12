@@ -25,6 +25,7 @@ DEPENDENCIES = (
     'raptus.article.allcontent',
     'raptus.article.slider',
     'raptus.article.collections',
+    'raptus.article.supersized',
     'raptus.article.alias',
     'raptus.backlink',
 )
@@ -35,7 +36,7 @@ def installDependencies(context):
     if context.readDataFile('raptus.article.default_install.txt') is None:
         return
     portal = context.getSite()
-    
+
     inst = getToolByName(portal, 'portal_quickinstaller')
     for prod in DEPENDENCIES:
         try:

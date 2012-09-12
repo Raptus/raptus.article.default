@@ -1,6 +1,11 @@
 Changelog
 =========
 
+2.0b12 (2012-09-11)
+-------------------
+
+* Added optional depedency for raptus.article.supersized
+
 2.0b11 (2012-03-21)
 -------------------
 

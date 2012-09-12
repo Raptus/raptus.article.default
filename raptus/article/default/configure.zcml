@@ -4,7 +4,7 @@
     xmlns:five="http://namespaces.zope.org/five"
     xmlns:genericsetup="http://namespaces.zope.org/genericsetup"
     i18n_domain="raptus.article">
-      
+
     <include package="raptus.article.links" />
     <include package="raptus.article.files" />
     <include package="raptus.article.reference" />
@@ -38,6 +38,7 @@
     <include package="raptus.article.allcontent" zcml:condition="installed raptus.article.allcontent" />
     <include package="raptus.article.slider" zcml:condition="installed raptus.article.slider" />
     <include package="raptus.article.collections" zcml:condition="installed raptus.article.collections" />
+    <include package="raptus.article.supersized" zcml:condition="installed raptus.article.supersized" />
     <include package="raptus.article.alias" zcml:condition="installed raptus.article.alias" />
     <include package="raptus.backlink" zcml:condition="installed raptus.backlink" />
 
