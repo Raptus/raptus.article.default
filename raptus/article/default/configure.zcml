@@ -40,6 +40,11 @@
     <include package="raptus.article.collections" zcml:condition="installed raptus.article.collections" />
     <include package="raptus.article.supersized" zcml:condition="installed raptus.article.supersized" />
     <include package="raptus.article.alias" zcml:condition="installed raptus.article.alias" />
+    <include package="raptus.article.mediagallery" zcml:condition="installed raptus.article.mediagallery" />
+    <include package="raptus.article.contents" zcml:condition="installed raptus.article.contents" />
+    <include package="raptus.article.slideshow" zcml:condition="installed raptus.article.slideshow" />
+    <include package="raptus.article.accordion" zcml:condition="installed raptus.article.accordion" />
+    <include package="raptus.article.teaseme" zcml:condition="installed raptus.article.teaseme" />
     <include package="raptus.backlink" zcml:condition="installed raptus.backlink" />
 
     <!-- Register the installation GenericSetup extension profile -->

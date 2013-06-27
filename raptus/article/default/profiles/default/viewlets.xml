@@ -2,10 +2,12 @@
 <object>
 
  <order manager="plone.belowcontentbody" skinname="*">
-  <viewlet name="raptus.article.allcontent" insert-before="*" />
   <viewlet name="raptus.article.listing.right" insert-before="*" />
   <viewlet name="raptus.article.listing.left" insert-before="*" />
   <viewlet name="raptus.article.listing.columns" insert-before="*" />
+  <viewlet name="raptus.article.listing.alternating" insert-before="*" />
+  <viewlet name="raptus.article.contents" insert-before="*" />
+  <viewlet name="raptus.article.accordion" insert-before="*" />
   <viewlet name="raptus.article.gallery.columns" insert-before="*" />
   <viewlet name="raptus.article.attachments" insert-before="*" />
   <viewlet name="raptus.article.links" insert-before="*" />
@@ -13,6 +15,16 @@
   <viewlet name="raptus.article.forms" insert-before="*" />
   <viewlet name="raptus.article.table.full" insert-before="*" />
   <viewlet name="raptus.article.backlink" insert-after="*" />
+ </order>
+
+ <order manager="plone.belowcontent" skinname="*">
+  <viewlet name="raptus.article.wysiwyg.bottom" insert-before="*" />
+  <viewlet name="raptus.article.allcontent" insert-before="*" />
+  <viewlet name="raptus.article.mediagallery" insert-before="*" />
+ </order>
+
+ <order manager="plone.abovecontent" skinname="*">
+  <viewlet name="raptus.article.teaseme" insert-after="*" />
  </order>
 
  <order manager="plone.abovecontenttitle" skinname="*">
@@ -53,6 +65,7 @@
   <viewlet name="raptus.article.media.audio" insert-before="*" />
   <viewlet name="raptus.article.media.video" insert-before="*" />
   <viewlet name="raptus.article.wysiwyg.full" insert-before="*" />
+  <viewlet name="raptus.article.wysiwyg.top" insert-before="*" />
   <viewlet name="raptus.article.supersized" insert-before="*" />
  </order>
 

@@ -27,6 +27,11 @@ DEPENDENCIES = (
     'raptus.article.collections',
     'raptus.article.supersized',
     'raptus.article.alias',
+    'raptus.article.mediagallery',
+    'raptus.article.contents',
+    'raptus.article.slideshow',
+    'raptus.article.accordion',
+    'raptus.article.teaseme',
     'raptus.backlink',
 )
 

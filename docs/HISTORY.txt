@@ -1,6 +1,12 @@
 Changelog
 =========
 
+2.0b13 (unreleased)
+-------------------
+
+* Added optional depedencies for raptus.article.mediagallery, raptus.article.contents,
+  raptus.article.slideshow, raptus.article.accordion and raptus.article.teaseme
+
 2.0b12 (2012-09-11)
 -------------------
 

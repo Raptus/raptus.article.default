@@ -149,6 +149,12 @@ by raptus.article.default and they will be installed if present.
 - `raptus.article.slider <http://pypi.python.org/pypi/raptus.article.slider>`_
 - `raptus.article.collections <http://pypi.python.org/pypi/raptus.article.collections>`_
 - `raptus.article.supersized <http://pypi.python.org/pypi/raptus.article.supersized>`_
+- `raptus.article.alias <http://pypi.python.org/pypi/raptus.article.alias>`_
+- `raptus.article.mediagallery <http://pypi.python.org/pypi/raptus.article.mediagallery>`_
+- `raptus.article.contents <http://pypi.python.org/pypi/raptus.article.contents>`_
+- `raptus.article.slideshow <http://pypi.python.org/pypi/raptus.article.slideshow>`_
+- `raptus.article.accordion <http://pypi.python.org/pypi/raptus.article.accordion>`_
+- `raptus.article.teaseme <http://pypi.python.org/pypi/raptus.article.teaseme>`_
 
 Extend your article
 -------------------
