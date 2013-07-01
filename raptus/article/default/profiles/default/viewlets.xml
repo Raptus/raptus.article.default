@@ -24,6 +24,7 @@
  </order>
 
  <order manager="plone.abovecontent" skinname="*">
+  <viewlet name="raptus.article.toggle" insert-before="*" />
   <viewlet name="raptus.article.teaseme" insert-after="*" />
  </order>
 

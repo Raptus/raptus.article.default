@@ -4,6 +4,7 @@ Changelog
 2.0b13 (unreleased)
 -------------------
 
+* Added raptus.article.toggle (introduced in raptus.article.core 2.0b13) viewlet position
 * Added optional depedencies for raptus.article.mediagallery, raptus.article.contents,
   raptus.article.slideshow, raptus.article.accordion and raptus.article.teaseme
 
